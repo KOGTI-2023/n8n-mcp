@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767422791496,
+  "lastUpdate": 1768321213868,
   "repoUrl": "https://github.com/KOGTI-2023/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -23,6 +23,37 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/KOGTI-2023/n8n-mcp/commit/2713db6d106f30554f3f144c548504c2097f2741"
         },
         "date": 1767422791244,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0136,
+            "range": "0.3096",
+            "unit": "ms",
+            "extra": "73341 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "czlonkowski@gmail.com",
+            "name": "czlonkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "czlonkowski@gmail.com",
+            "name": "czlonkowski",
+            "username": "czlonkowski"
+          },
+          "distinct": true,
+          "id": "a6dcbd2473634e8afd1d4aa9613971287733a6bd",
+          "message": "docs: remove outdated docs/CHANGELOG.md\n\nThe docs/CHANGELOG.md had incomplete version history (jumped from\n2.33.1 to 2.14.4). The root CHANGELOG.md is the canonical changelog\nwith complete version history.\n\nConceived by Romuald Czlonkowski - www.aiadvisors.pl/en\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+          "timestamp": "2026-01-12T10:47:56+01:00",
+          "tree_id": "0c7e80f566c8874f0f0ec5f806a431551a0f8894",
+          "url": "https://github.com/KOGTI-2023/n8n-mcp/commit/a6dcbd2473634e8afd1d4aa9613971287733a6bd"
+        },
+        "date": 1768321213118,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
